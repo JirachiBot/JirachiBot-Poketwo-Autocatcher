@@ -10,7 +10,8 @@
 - It is recommended to use you alt rather than your main as the bot
 
 ## Sup, this is a discord selfbot that responds to the Pokename bot's pings
-You will need to enter some values in the "secrets" folder/tab for the bot to work. These are:
+~You will need to enter some values in the "secrets" folder/tab for the bot to work. These are:~
+Make a .env file and put these there
 
 **Key**: token , **Value**: your bot's token (google how to get it)
 
