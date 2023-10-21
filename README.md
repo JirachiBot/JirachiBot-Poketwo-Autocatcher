@@ -28,7 +28,7 @@ Make a .env file and put these there
 
 after entering your values, it should look something like this: https://imgur.com/a/S7xOsRw 
 
- - put this in Uptime Robot for it to stay online 24/7 (google how)
+ - ~put this in Uptime Robot for it to stay online 24/7 (google how)~
 
 ## Features:
 
