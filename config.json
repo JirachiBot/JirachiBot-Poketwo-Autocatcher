@@ -1,0 +1,8 @@
+{ 
+  "prefix": "!",
+  "logID": "ID of the Log Channel",
+  "ownerID": "YOUR ID",
+  "Hunt": "Pokemon you're hunting",
+  "botID": "Bot's ID",
+  "token": "Bot's Token"
+}

@@ -9,12 +9,13 @@ app.listen(port, () =>
   console.log(`Bot getting ready...`)
 );
 const Discord = require('discord.js-selfbot');
+const settings = require('./config.json');
 const client = new Discord.Client();
-const prefix = process.env.prefix;
-const ownerID = process.env.ownerID;
-const botID = process.env.botID;
-const logID = process.env.logID;
-const Hunt = process.env.Hunt;
+const prefix = settings.prefix;
+const ownerID = settings.ownerID;
+const botID = settings.botID;
+const logID = settings.logID;
+const Hunt = settings.Hunt;
 const Pname = "874910942490677270";
 const P2 = "716390085896962058";
 var gg = new Array('gg', 'nice', 'cool', 'wow', 'thanks', 'lol');
@@ -25,6 +26,8 @@ client.on("ready", () => {
     .then(channel => {
       channel.send(`Bot is On!`)
     })
+    client.user.setStatus("invisible");
+      accountCheck = client.user.username;
 })
 
 //1. shows your shinyhunt streak
@@ -85,4 +88,4 @@ client.on('message', msg => {
 });
 
 
-client.login(process.env.token);
+client.login(settings.token);
