@@ -87,5 +87,17 @@ client.on('message', msg => {
     });
 });
 
+//6. Say command
+client.on('message', msg => {
+  if (!msg.content.startsWith(prefix)) return;
+  if (msg.author.id != ownerID) return;
+  let args = msg.content.toLowerCase().slice(prefix.length).trim().split(" ");
+  let cmd = args.shift();
+  if (cmd === 'say') {
+   const sayMessage = msg.content.split(' ').slice(1).join(' ');
+    //msg.delete();
+   msg.channel.send(sayMessage);
+ }
+});
 
 client.login(settings.token);

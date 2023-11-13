@@ -39,11 +39,13 @@ after entering your values, it should look something like this: https://imgur.co
 ## Command(s):
 
 - **sh**: shows the bot's current shinyhunt streak (use in a private server)
+- **say**: says whatever you want the bot to say
 
 ## Setup:
 
-- Paste this code in VSCode or any alternatives
+- Paste this code in VSCode or any alternative
 - Fill in the config.json (mentioned above)
+- If you get any errors, try typing `npm i discord.js-selfbot` or `npm i discord.js-selfbot-v13` in the terminal 
 - Join many servers (not too many at the same time duh) and let the bot do it's work!
 
 `Happy Catching!`
