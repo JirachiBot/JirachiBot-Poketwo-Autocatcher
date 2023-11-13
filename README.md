@@ -8,6 +8,7 @@
 - Self-botting is against Pokétwo and even Discord's TOS
 - If you get banned for using this bot, it is not my responsibility
 - It is recommended to use you alt rather than your main as the bot
+- Make sure your `config.json` file isn't public!
 
 ## Sup, this is a discord selfbot that responds to the Pokename bot's pings
 You will need to enter some values in config.json, (make sure these are private!) They are:
