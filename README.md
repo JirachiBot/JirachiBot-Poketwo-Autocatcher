@@ -25,7 +25,7 @@ You will need to enter some values in config.json, (make sure these are private!
 **Hunt**: whatever you are hunting (example: ralts)
 
 
-after entering your values, it should look something like this: https://imgur.com/a/aWqwJ40
+after entering your values, it should look something like this: https://imgur.com/0tQ4Y7m
 
 ## Features:
 
