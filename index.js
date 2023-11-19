@@ -1,4 +1,5 @@
 //check out README.md
+//configure values in config.json
 const express = require('express')
 const app = express();
 const port = 3000
