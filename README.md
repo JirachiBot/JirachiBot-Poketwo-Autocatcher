@@ -1,6 +1,6 @@
 # **Introduction**
 
-`made by @jirachibot, forked from @verysussy (thanks m8)`
+`made by @jirachibot, forked from @verysussy/viwesbot`
 
 `supports Pokétwo with the help of Poké-Name`
 
@@ -14,9 +14,9 @@ You will need to enter some values in config.json, (make sure these are private!
 
 **Token**: your bot's token (google how to get it)
 
-**Prefix**: any prefix (example: "!")
+**Prefix**: any prefix (example: !)
 
-**ownerID**: *YOUR* ID, or ID of whoever is controlling the bot
+**ownerID**: *YOUR* ID, or ID of whoever is controlling the bot (used only for pings and commands)
 
 **botID**: bot's ID
 
@@ -39,9 +39,10 @@ after entering your values, it should look something like this: https://imgur.co
 
 ## Command(s):
 
-- **sh**: shows the bot's current shinyhunt streak (use in a private server)
-- **say**: says whatever you want the bot to say
-- **safemode**: toggleable command, enabling safemode stops your bot from catching pokemon for 5 minutes
+- **sh:** Shows the bot's current shinyhunt streak (use in a private server)
+- **say:** Says whatever you want the bot to say
+- **safemode:** Toggleable command, enabling safemode stops your bot from catching pokemon for 5 minutes
+- **ping:** Show's the latency, check if your bot is lagging
 
 ## Setup:
 
