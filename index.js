@@ -63,7 +63,7 @@ client.on('message', msg => {
   setTimeout(function() {
     if (sm == false) {
       msg.channel.send(`<@${P2}> c ${Hunt}`).then(() => {
-        const collector = new Discord.MessageCollector(msg.channel, m => m.author.id === P2 && m.content.includes(Hunt) && m.content.includes(botID), { time: 1000 * 3 });
+        const collector = new Discord.MessageCollector(msg.channel, m => m.author.id === P2 && m.content.includes('Shiny') && m.content.includes(botID), { time: 1000 * 3 });
         collector.on('collect', response => {
           client.channels.cache.get(logID).send("> [+1 `" + `${Hunt}` + "` caught!]" + `(${msg.url})`);
           collector.stop();
@@ -99,7 +99,7 @@ client.on('message', msg => {
     setTimeout(function() {
       if (sm == false) {
         msg.channel.send(`<@${P2}> c ${Hunt}`).then(() => {
-          const collector = new Discord.MessageCollector(msg.channel, m => m.author.id === P2 && m.content.includes(Hunt) && m.content.includes(botID), { time: 1000 * 3 });
+          const collector = new Discord.MessageCollector(msg.channel, m => m.author.id === P2 && m.content.includes('Shiny') && m.content.includes(botID), { time: 1000 * 3 });
           collector.on('collect', response => {
             client.channels.cache.get(logID).send("> [+1 `" + `${Hunt}` + "` caught!]" + `(${msg.url})`);
             collector.stop();
